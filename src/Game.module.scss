@@ -1,6 +1,14 @@
 .Game {
 }
 
+.gameover {
+  color: red;
+}
+
+.gaming {
+  visibility: hidden;
+}
+
 .table {
   display: grid;
   grid-template-columns: repeat(16, 30px);
