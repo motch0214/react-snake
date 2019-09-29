@@ -1,0 +1,28 @@
+.Game {
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(16, 30px);
+  grid-template-rows: repeat(16, 30px);
+}
+
+.cell {
+  border: 1px solid #282c34;
+}
+
+.whitespace {
+  background: whitesmoke;
+}
+
+.snakeHead {
+  background: gray;
+}
+
+.snakeBody {
+  background: darkgray;
+}
+
+.apple {
+  background: orangered;
+}
